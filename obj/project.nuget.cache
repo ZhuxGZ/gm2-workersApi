@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "K26IdzJlXgaMCYpMiLnHUAoR/4uB/dfcXYJdPPEc7gHIyc9lCPvcfyYWvlYtkoTvuALy65rQyuqj0vGlghEjOA==",
+  "dgSpecHash": "NE+MlpnI5ENMcosIZUhDebEDqXa/VG18Z4wUi4bW4VbHsCRbfZNe7k9WCSw+bgZGyTWb8ManFE03OCMzwXeTmg==",
   "success": true,
   "projectFilePath": "/Users/ibergantinos/Desktop/Projects/workersApi/workersApi/workersApi.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "/Users/ibergantinos/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/Users/ibergantinos/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/Users/ibergantinos/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/Users/ibergantinos/.nuget/packages/json.net/1.0.33/json.net.1.0.33.nupkg.sha512",
     "/Users/ibergantinos/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "/Users/ibergantinos/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.11/microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
     "/Users/ibergantinos/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

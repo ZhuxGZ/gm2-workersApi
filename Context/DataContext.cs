@@ -18,7 +18,7 @@ namespace workersApi.Context
         }
 
         public DbSet<Employee> Employees { get; set; }
-        public DbSet<Project> Projects { get; set; }
+        public DbSet<DBProject> Projects { get; set; }
     }
 }
 

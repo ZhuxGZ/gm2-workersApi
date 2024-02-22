@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using workersApi.Context;
 using workersApi.Models;
-using System.Linq;
 
 namespace workersApi.Controllers
 {
