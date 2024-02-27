@@ -24,7 +24,22 @@ namespace workersApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<Employee>>> GetEmployees(DateTime fromDate, DateTime toDate, string filter = null)
         {
+            /*
+                Que te parece si para toda esta logica creamos un EmployeeService? Los servicios son los encargados de 
+                acceder al modelo de la base de datos, contemplar la logica de negocio, etc. El Controller solamente llama al metodo
+                del servicio correspondiente y devuelve el resultado! En este caso la lista 
 
+                Ejemplo de controller que devuelve una lista de objetos:
+                public IActionResult Get([FromQuery] KycApplicationByCustomerRequest request)
+                {
+                    GetKycApplicationRequestDto kycApplicationRequest = new();
+                    kycApplicationRequest.Map(request);
+
+                    var kycApplicationResult = _kycApplicationService.GetCustomerApplications(kycApplicationRequest);
+
+                    return Ok(ApiResponse<GetKycApplicationResponseDto>.BuildSuccessResponse(data: kycApplicationResult.Data));
+                }
+            */
             List<Employee> employees = _context.Employees.ToList();
 
             if (fromDate != new DateTime(0001, 01, 01) || fromDate != new DateTime(0001, 01, 01))
