@@ -22,6 +22,10 @@ namespace workersApi.Controllers
             _context = context;
         }
 
+        /*
+            Lo mismo que en EmployeeController, creemos un ProjectService que maneje toda la logica!
+        */
+
         [HttpGet]
         public async Task<ActionResult<List<Project>>> GetProjects()
         {

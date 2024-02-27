@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 namespace workersApi.Models
 {
+    /*
+     Aca tambien, lo mismo que en Employee.cs! Mantengamos la entidad que se refleja en la base de datos dentro de la carpeta
+     Models, lo demas hay que identificar si son DTOs! 
+    */
 	public class DBProject
 	{
         public int Id { get; set; }

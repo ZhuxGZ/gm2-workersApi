@@ -11,6 +11,13 @@ namespace workersApi.Context
 
         }
 
+        /*
+            Muy bien usar el context ! :D 
+            Sabias que se puede acceder a la base de datos para mantener un mismo objeto durante todo el 
+            proceso de ejecucion? Podemos armar el contexto con toda la informacion que no se va a acceder nuevamente
+            a la base de datos a buscarla, y va a sufrir nuevos cambios. Podemos investigar al respecto
+            para tener mas conocimientos! (No hace falta aplicarlo) :D
+        */
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
